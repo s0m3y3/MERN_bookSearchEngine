@@ -5,19 +5,20 @@ import { gql } from '@apollo/client';
 export const LOGIN_USER = gql`
   mutation loginuser($email: String!, $password: String!) {
     loginUser(email: $email, password: $password) {
-        user {
-            _id
-            username
-            email
-            savedBooks {
-                _id
-                authors
-                description
-                title
-                image
-                link
-            }
-        }
+      token
+      user {
+          _id
+          username
+          email
+          savedBooks {
+              _id
+              authors
+              description
+              title
+              image
+              link
+          }
+      }
     }
   }
 `;
@@ -25,6 +26,7 @@ export const LOGIN_USER = gql`
 export const ADD_USER = gql`
   mutation addUser($username: String!, $email: String!, $password: String!) {
     addUser(username: $username, email: $email, password: $password) {
+      token
       _id
       username
       email
@@ -53,6 +55,7 @@ export const SAVE_BOOK = gql`
   }
 `;
 
+// # Define the book fields you want to receive after the mutation
 export const REMOVE_BOOK = gql`
   mutation removeBook($bookId: ID!) {
     removeBook(bookId: $bookId) {
@@ -60,7 +63,6 @@ export const REMOVE_BOOK = gql`
       username
       email
       savedBooks {
-        # Define the book fields you want to receive after the mutation
         _id
         authors
         description
