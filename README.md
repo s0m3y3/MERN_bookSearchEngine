@@ -1,4 +1,5 @@
-# MERN 
+# Book Search Engine (MERN) 
+An app for searching books and saving to your favorites. 
 
 ## Table of Contents (Optional)
 
@@ -10,7 +11,7 @@
 - [Credits](#credits)
 
 ## Description
-pending...
+An application designed for book enthusiasts, providing an experience to effortlessly explore an extensive library of books. Users can easily search for their favorite titles, discover new gems, and save books to their personal favorites. With a user-friendly interface and powerful search capabilities (Google books), this app aims to enhance the joy of book discovery and create a curated collection of beloved reads for every user.
 
 ## Installation
 pending...
@@ -29,5 +30,6 @@ pending...
     
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## Credits
-Github: [Link](https://github.com/s0m3y3/MERN_bookSearchEngine)
+## Credits 
+Google Book API ()  
+Github: [Link](https://github.com/s0m3y3/MERN_bookSearchEngine) 
