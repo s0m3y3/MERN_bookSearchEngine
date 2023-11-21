@@ -1,7 +1,6 @@
-// Important for useMutation: We bring in gql from the @apollo/client library to allow us to parse mutations (and queries) as template literals
 import { gql } from '@apollo/client';
 
-// Important for useMutation: Each mutation we'd like to be able to perform gets exported out of our mutations.js utility
+// Important for useMutation
 export const LOGIN_USER = gql`
   mutation loginuser($email: String!, $password: String!) {
     loginUser(email: $email, password: $password) {
@@ -10,14 +9,6 @@ export const LOGIN_USER = gql`
           _id
           username
           email
-          savedBooks {
-              _id
-              authors
-              description
-              title
-              image
-              link
-          }
       }
     }
   }
